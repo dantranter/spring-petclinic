@@ -8,9 +8,9 @@
 # The project where your Jenknis Agent will run
 CLOUDBEES_PROJECT_ID="cloudbees-public"
 # The GCP Project where you will deploy the Petclinic application
-DEPLOYER_PROJECT_ID="cje-marketplace-dev"
+DEPLOYER_PROJECT_ID="ps-dev-201405"
 # The GCP Project where you will store your Binary Authorization attestations and policies
-ATTESTOR_PROJECT_ID="cloudbees-public"
+ATTESTOR_PROJECT_ID="ps-dev-201405"
 
 # GKE settings
 # The GKE cluster where your Jenkins Agent will run
@@ -46,13 +46,13 @@ TAG_ATTESTOR_NOTE_ID="tag-attest-note"
 # The name of the build attestor
 BUILD_ATTESTOR_NAME="Build Attestor"
 # The email of the build attestor
-BUILD_ATTESTOR_EMAIL="buildattestor@example.com"
+BUILD_ATTESTOR_EMAIL="dtranter@cloudbees.com"
 # The id of the build attestor
 BUILD_ATTESTOR_ID="build-attestor"
 # The name of the build attestor
 TAG_ATTESTOR_NAME="Tag Attestor"
 # The email of the tag attestor
-TAG_ATTESTOR_EMAIL="tagattestor@example.com"
+TAG_ATTESTOR_EMAIL="dtranter@cloudbees.com"
 # The id of the tag attestor
 TAG_ATTESTOR_ID="tag-attestor"
 
