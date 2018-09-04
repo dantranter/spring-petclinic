@@ -6,7 +6,7 @@
 # These settings must be changed to work in your environment
 # GCP Projects - All three projects may be the same project.
 # The project where your Jenknis Agent will run
-CLOUDBEES_PROJECT_ID="cloudbees-public"
+CLOUDBEES_PROJECT_ID="ps-dev-201405"
 # The GCP Project where you will deploy the Petclinic application
 DEPLOYER_PROJECT_ID="ps-dev-201405"
 # The GCP Project where you will store your Binary Authorization attestations and policies
@@ -14,9 +14,9 @@ ATTESTOR_PROJECT_ID="ps-dev-201405"
 
 # GKE settings
 # The GKE cluster where your Jenkins Agent will run
-CLOUDBEES_CLUSTER="cloudbees-core"
+CLOUDBEES_CLUSTER="cloudbees-core-dtranter"
 # The GKE cluster namespace where your Jenkins Agent will run
-CLOUDBEES_NAMESPACE="cloudbees-core"
+CLOUDBEES_NAMESPACE="default"
 # The GCP Zone where GKE cluster for CloudBees Jenkins Agents run
 CLOUDBEES_CLUSTER_ZONE="us-east1-b"
 
