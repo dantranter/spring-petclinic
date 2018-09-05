@@ -14,7 +14,7 @@ ATTESTOR_PROJECT_ID="ps-dev-201405"
 
 # GKE settings
 # The GKE cluster where your Jenkins Agent will run
-CLOUDBEES_CLUSTER="cloudbees-core-dtranter"
+CLOUDBEES_CLUSTER="dtranter"
 # The GKE cluster namespace where your Jenkins Agent will run
 CLOUDBEES_NAMESPACE="default"
 # The GCP Zone where GKE cluster for CloudBees Jenkins Agents run
@@ -23,12 +23,12 @@ CLOUDBEES_CLUSTER_ZONE="us-east1-b"
 # The GKE Cluster where you will deploy the Petclinic application for development
 DEPLOYER_DEV_CLUSTER_NAME="dev"
 # The GCP zone for the GKE cluster where you will deploy the Petclinic application for development
-DEPLOYER_DEV_CLUSTER_ZONE="us-central1-a"
+DEPLOYER_DEV_CLUSTER_ZONE="us-east1-b"
 
 # The GKE Cluster where you will deploy the Petclinic application for production
 DEPLOYER_PROD_CLUSTER_NAME="prod"
 # The GCP zone for the GKE cluster where you will deploy the Petclinic application for production
-DEPLOYER_PROD_CLUSTER_ZONE="us-central1-a"
+DEPLOYER_PROD_CLUSTER_ZONE="us-easet1-b"
 
 
 ###################
